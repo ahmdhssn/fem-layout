@@ -57,6 +57,7 @@ div img {
 /* global alignment options */
 .reverse {
 	flex-direction: row-reverse;
+	justify-content: flex-end; /* flex is great! */
 }
 
 /* Mobile Landscape Screen Sizes */
@@ -75,10 +76,12 @@ div img {
 	.col-2-4 {
 		flex: 0 0 92%;
 	}
+	/* this is replaced by justify-content:flex-end in the the .reverse class
 	.reverse [class*='col-'] {
 		margin-left: 0%;
 		margin-right: 4%;
 	}
+	*/
 
 
 }
